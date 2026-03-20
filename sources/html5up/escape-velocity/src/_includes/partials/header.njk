@@ -1,0 +1,11 @@
+{% from "macros/menu.njk" import renderMenuRecursive %}
+<!-- Logo -->
+<div id="logo">
+  <h1><a href={{ site.meta.index }}>{{ site.meta.heading }}</a></h1>
+  <p>{{ site.meta.description }}</p>
+</div>
+
+<!-- Nav -->
+<nav id="nav">
+  {{ renderMenuRecursive(site.navigation, page) }}
+</nav>

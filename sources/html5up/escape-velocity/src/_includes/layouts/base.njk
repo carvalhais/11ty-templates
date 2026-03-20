@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="{{ site.meta.lang }}">
+  
+  <head>
+    {% include "partials/head.njk" %}
+  </head>
+
+  <body class="homepage is-preload">
+    <div id="page-wrapper">
+
+      <!-- Header -->
+      <header id="header" class="wrapper">
+        {% include "partials/header.njk" %}
+      </header>
+
+      <!-- Page content -->
+      <main>
+        {% block content %}
+        {% endblock %}
+      </main>
+
+      <!-- Footer -->
+      <footer>
+      </footer>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="{{ site.url.prefix }}{{ site.url.assets }}/js/jquery.min.js"></script>
+    <script src="{{ site.url.prefix }}{{ site.url.assets }}/js/jquery.dropotron.min.js"></script>
+    <script src="{{ site.url.prefix }}{{ site.url.assets }}/js/browser.min.js"></script>
+    <script src="{{ site.url.prefix }}{{ site.url.assets }}/js/breakpoints.min.js"></script>
+    <script src="{{ site.url.prefix }}{{ site.url.assets }}/js/util.js"></script>
+    <script src="{{ site.url.prefix }}{{ site.url.assets }}/js/main.js"></script>
+
+  </body>
+
+</html>

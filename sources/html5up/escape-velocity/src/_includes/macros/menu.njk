@@ -1,0 +1,13 @@
+{% macro renderMenuRecursive(items, page) %}
+  <ul>
+    {% for item in items %}
+      {% set current = page.url.startsWith(item.url) %}
+      <li {% if current %} class="current"{% endif %}>
+        <a href="{{ item.url | url }}" {% if current %} aria-current="page"{% endif %}>{{ item.label }}</a>
+        {% if item.children %}
+          {{ renderMenuRecursive(item.children, page) }}
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+{% endmacro %}
