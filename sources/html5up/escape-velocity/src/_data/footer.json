@@ -1,0 +1,42 @@
+{
+  "contact": [
+    {
+      "solid": true,
+      "icon": "fa-home",
+      "header": "Mailing Address",
+      "isText": true,
+      "text": "Untitled Corp<br />\n1234 Somewhere Rd<br />\nNashville, TN 00000",
+      "links": null
+    },
+    {
+      "solid": true,
+      "icon": "fa-comment",
+      "header": "Social",
+      "isText": false,
+      "text": null,
+      "links": [
+        {"link": "#", "text": "@untitled-corp"},
+        {"link": "#", "text": "linkedin.com/untitled"},
+        {"link": "#", "text": "facebook.com/untitled"}
+      ]
+    },
+    {
+      "solid": true,
+      "icon": "fa-envelope",
+      "header": "Email",
+      "isText": false,
+      "text": null,
+      "links": [
+        {"link": "#", "text": "info@untitled.tld"}
+      ]
+    },
+    {
+      "solid": true,
+      "icon": "fa-phone",
+      "header": "Phone",
+      "isText": true,
+      "text": "(000) 555-0000",
+      "links": null
+    }
+  ]
+}
