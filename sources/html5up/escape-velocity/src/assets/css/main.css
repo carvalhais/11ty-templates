@@ -2040,7 +2040,8 @@ input, select, textarea {
 
 /* Page Wrapper */
 
-	#page-wrapper > section {
+	#page-wrapper > header,
+	#page-wrapper > main > section {
 		margin-bottom: 0;
 	}
 
