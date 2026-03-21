@@ -1,0 +1,66 @@
+{
+  "features": [
+    {
+      "solid": false,
+      "icon": "fa-comment",
+      "header": "Mattis velit diam vulputate",
+      "text": "Eget mattis at, laoreet vel et velit aliquam diam ante, aliquet sit amet vulputate et magna feugiat laoreet vel velit lorem."
+    },
+    {
+      "solid": true,
+      "icon": "fa-sync",
+      "header": "Lorem ipsum dolor sit veroeros",
+      "text": "Eget mattis at, laoreet vel et velit aliquam diam ante, aliquet sit amet vulputate et magna feugiat laoreet vel velit lorem."
+    },
+    {
+      "solid": false,
+      "icon": "fa-image",
+      "header": "Pretium phasellus justo lorem",
+      "text": "Eget mattis at, laoreet vel et velit aliquam diam ante, aliquet sit amet vulputate et magna feugiat laoreet vel velit lorem."
+    },
+    {
+      "solid": true,
+      "icon": "fa-cog",
+      "header": "Tempus sed pretium orci",
+      "text": "Eget mattis at, laoreet vel et velit aliquam diam ante, aliquet sit amet vulputate et magna feugiat laoreet vel velit lorem."
+    },
+    {
+      "solid": true,
+      "icon": "fa-wrench",
+      "header": "Aliquam consequat et feugiat",
+      "text": "Eget mattis at, laoreet vel et velit aliquam diam ante, aliquet sit amet vulputate et magna feugiat laoreet vel velit lorem."
+    },
+    {
+      "solid": true,
+      "icon": "fa-check",
+      "header": "Dolore laoreet aliquam mattis",
+      "text": "Eget mattis at, laoreet vel et velit aliquam diam ante, aliquet sit amet vulputate et magna feugiat laoreet vel velit lorem."
+    }
+  ],
+  "highlights": [
+    {
+      "img": "images/pic02.jpg",
+      "alt": "",
+      "header": "Aliquam diam consequat",
+      "text": "Eget mattis at, laoreet vel amet sed velit aliquam diam ante, dolor aliquet sit amet vulputate mattis amet laoreet lorem.",
+      "link": "#",
+      "btnText": "Learn More"
+    },
+    {
+      "img": "images/pic03.jpg",
+      "alt": "",
+      "header": "Nisl adipiscing sed lorem",
+      "text": "Eget mattis at, laoreet vel amet sed velit aliquam diam ante, dolor aliquet sit amet vulputate mattis amet laoreet lorem.",
+      "link": "#",
+      "btnText": "Learn More"
+    },
+    {
+      "img": "images/pic04.jpg",
+      "alt": "",
+      "header": "Mattis tempus lorem",
+      "text": "Eget mattis at, laoreet vel amet sed velit aliquam diam ante, dolor aliquet sit amet vulputate mattis amet laoreet lorem.",
+      "link": "#",
+      "btnText": "Learn More"
+    }
+  ]
+}
