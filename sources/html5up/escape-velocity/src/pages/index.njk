@@ -3,8 +3,6 @@ title: ""
 layout: "layouts/home.njk"
 permalink: "/"
 ---
-{% block content %}
-
 <!-- Intro -->
 <section id="intro" class="wrapper style1">
   <div class="title">The Introduction</div>
@@ -40,16 +38,7 @@ permalink: "/"
       <div class="feature-list">
         <div class="row">
         {% for item in features %}
-          {% set solid = "" %}
-          {% if item.solid %}
-            {% set solid = " solid " %}    
-          {% endif %}
-          <div class="col-6 col-12-medium">
-            <section>
-              <h3 class="icon {{ solid }}{{ item.icon }}">{{ item.header }}</h3>
-              <p>{{ item.text }}</p>
-            </section>
-          </div>
+          {% include "partials/panels/feature.njk" %}
         {% endfor %}
         </div>
       </div>
@@ -67,19 +56,8 @@ permalink: "/"
   <div class="container">
     <div class="row aln-center">
     {% for item in highlights %}
-      <div class="col-4 col-12-medium">
-        <article class="highlight">
-          <a href="{{ item.link }}" class="image featured"><img src="{{ site.url.prefix }}{{ site.url.assets }}/{{ item.img }}" alt="{{ item.alt }}" /></a>
-          <h3><a href="{{ item.link }}">{{ item.header }}</a></h3>
-          <p>{{ item.text }}</p>
-          <ul class="actions">
-            <li><a href="{{ item.link }}" class="button style1">{{ item.btnText }}</a></li>
-          </ul>
-        </article>
-      </div>
+      {% include "partials/panels/highlight.njk" %}
     {% endfor %}
     </div>
   </div>
 </section>
-
-{% endblock content %}

@@ -1,4 +1,4 @@
-{% from "macros/menu.njk" import renderMenuRecursive %}
+{% from "macros/navbar.njk" import renderNavbar %}
 <!-- Logo -->
 <div id="logo">
   <h1><a href={{ site.meta.index }}>{{ site.meta.heading }}</a></h1>
@@ -6,6 +6,4 @@
 </div>
 
 <!-- Nav -->
-<nav id="nav">
-  {{ renderMenuRecursive(site.navigation, page) }}
-</nav>
+{{ renderNavbar(navbar, page) }}

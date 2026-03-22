@@ -1,5 +1,4 @@
-{
-  "contact": [
+[
     {
       "solid": true,
       "icon": "fa-home",
@@ -38,5 +37,4 @@
       "text": "(000) 555-0000",
       "links": null
     }
-  ]
-}
+]

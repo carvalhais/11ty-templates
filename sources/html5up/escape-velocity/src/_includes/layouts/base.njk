@@ -2,7 +2,7 @@
 <html lang="{{ site.meta.lang }}">
   
   <head>
-    {% include "partials/head.njk" %}
+    {% include "partials/sections/head.njk" %}
   </head>
 
   <body class="homepage is-preload">
@@ -10,18 +10,18 @@
 
       <!-- Header -->
       <header id="header" class="wrapper" role="banner">
-        {% include "partials/header.njk" %}
+        {% include "partials/sections/header.njk" %}
       </header>
 
       <!-- Page content -->
       <main>
-        {% block content %}
-        {% endblock %}
+        {% block main %}
+        {% endblock main %}
       </main>
 
       <!-- Footer -->
       <footer id="footer" class="wrapper">
-        {% include "partials/footer.njk" %}
+        {% include "partials/sections/footer.njk" %}
       </footer>
 
     </div>

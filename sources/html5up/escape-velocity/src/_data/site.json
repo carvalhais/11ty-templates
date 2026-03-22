@@ -7,29 +7,6 @@
     "lang": "en",
     "charset": "utf-8"
   },
-  "navigation": [
-    { "key": "home", "label": "Home", "url": "/", "children": null},
-    { "key": "", "label": "Dropdown", "url": "#", "children": 
-      [
-        { "key": "", "label": "Lorem ipsum", "url": "#", "children": null },
-        { "key": "", "label": "Magna veroeros", "url": "#", "children": null },
-        { "key": "", "label": "Etiam nisl", "url": "#", "children": null },
-        { "key": "", "label": "Sed consequat", "url": "#", "children": 
-          [
-            { "key": "", "label": "Lorem dolor", "url": "#", "children": null },
-            { "key": "", "label": "Amet consequat", "url": "#", "children": null },
-            { "key": "", "label": "Magna phasellus", "url": "#", "children": null },
-            { "key": "", "label": "Etiam nisl", "url": "#", "children": null },
-            { "key": "", "label": "Sed feugiat", "url": "#", "children": null }
-          ]
-        },
-        { "key": "", "label": "Nisl tempus", "url": "#", "children": null }
-      ]
-    },
-    { "key": "left-sidebar", "label": "Left Sidebar", "url": "/left-sidebar/", "children": null },
-    { "key": "right-sidebar", "label": "Right Sidebar", "url": "/right-sidebar/", "children": null },
-    { "key": "no-sidebar", "label": "No Sidebar", "url": "/no-sidebar/", "children": null }
-  ],
   "url": {
     "prefix": "",
     "assets": "/assets"

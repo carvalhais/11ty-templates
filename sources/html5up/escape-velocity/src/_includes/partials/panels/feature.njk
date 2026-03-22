@@ -1,0 +1,10 @@
+{% set solid = "" %}
+{% if item.solid %}
+  {% set solid = " solid " %}
+{% endif %}
+<div class="col-6 col-12-medium">
+  <section>
+    <h3 class="icon {{ solid }}{{ item.icon }}">{{ item.header }}</h3>
+    <p>{{ item.text }}</p>
+  </section>
+</div>
